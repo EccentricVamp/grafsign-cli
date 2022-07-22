@@ -1,0 +1,25 @@
+{
+  "name": "grafsign-cli",
+  "version": "0.1.0",
+  "description": "Lightweight executable for signing Grafana plugins",
+  "bin": {
+    "grafsign": "main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EccentricVamp/grafana-sign.git"
+  },
+  "keywords": [
+    "grafana"
+  ],
+  "author": "Luke Cloninger (EccentricVamp)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/EccentricVamp/grafana-sign/issues"
+  },
+  "homepage": "https://github.com/EccentricVamp/grafana-sign#readme",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "node-fetch": "^3.2.9"
+  }
+}
