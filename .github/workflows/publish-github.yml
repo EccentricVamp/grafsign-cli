@@ -23,6 +23,8 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: ${{ github.repository_owner }}
       - run: npm ci
-      - run: npm publish
+      - run: |
+          sed -i 's+"name": ".*+"name": "@eccentricvamp/grafsign",+gI' ./package.json
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
