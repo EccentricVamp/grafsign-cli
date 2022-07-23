@@ -22,7 +22,7 @@ jobs:
       - run: npm ci
       - name: Publish to GitHub Package Registry
         run: |
-          sed -i 's+"name": ".*+"name": "@eccentricvamp/grafsign-cli",+gI' ./package.json
+          sed -i 's+"name": ".*+"name": "@EccentricVamp/grafsign-cli",+gI' ./package.json
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
