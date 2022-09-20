@@ -9,5 +9,5 @@ program
 
 program.parse();
 
-const [type, url] = program.opts();
+const { type, url } = program.opts();
 sign(type, url);
