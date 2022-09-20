@@ -12,11 +12,9 @@
   "keywords": [
     "grafana"
   ],
-  "author": "Luke Cloninger (EccentricVamp)",
+  "author": "T. Luke Cloninger",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/EccentricVamp/grafana-sign/issues"
-  },
+  "bugs": "https://github.com/EccentricVamp/grafana-sign/issues",
   "homepage": "https://github.com/EccentricVamp/grafana-sign#readme",
   "dependencies": {
     "commander": "^9.4.0",
