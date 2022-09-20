@@ -2,6 +2,7 @@
   "name": "grafsign-cli",
   "version": "0.2.0",
   "description": "Lightweight executable for signing Grafana plugins",
+  "type": "module",
   "bin": {
     "grafsign": "main.js"
   },
