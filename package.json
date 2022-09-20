@@ -1,6 +1,6 @@
 {
   "name": "grafsign-cli",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Lightweight executable for signing Grafana plugins",
   "type": "module",
   "bin": {
@@ -18,6 +18,6 @@
   "bugs": "https://github.com/EccentricVamp/grafsign-cli/issues",
   "dependencies": {
     "commander": "^9.4.0",
-    "grafsign": "^0.2.0"
+    "grafsign": "^0.3.0"
   }
 }
