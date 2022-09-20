@@ -7,15 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EccentricVamp/grafana-sign.git"
+    "url": "git+https://github.com/EccentricVamp/grafsign-cli.git"
   },
   "keywords": [
     "grafana"
   ],
   "author": "T. Luke Cloninger",
   "license": "Apache-2.0",
-  "bugs": "https://github.com/EccentricVamp/grafana-sign/issues",
-  "homepage": "https://github.com/EccentricVamp/grafana-sign#readme",
+  "bugs": "https://github.com/EccentricVamp/grafsign-cli/issues",
   "dependencies": {
     "commander": "^9.4.0",
     "grafsign": "^0.2.0"
