@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { sign } from "sign";
+import { sign } from "grafsign";
 import { program } from "commander";
 
 program
