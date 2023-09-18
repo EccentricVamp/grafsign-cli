@@ -18,6 +18,6 @@
   "bugs": "https://github.com/EccentricVamp/grafsign-cli/issues",
   "dependencies": {
     "commander": "^9.4.0",
-    "grafsign": "^0.3.0"
+    "grafsign": "^1.0.0"
   }
 }
